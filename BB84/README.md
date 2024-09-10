@@ -39,10 +39,7 @@ In summary, while BB84 provides a method for secure key distribution, the presen
 
 ## References
 
-[1] A new attack strategy for BB84 protocol based on, Breidbart basis, Liu Dan; Pei Chang-xing; Quan Dong-xiao; Han Bao-bin; Zhao Nan
-
-[2] Cryptography from Noisy Storage, Stephanie Wehner; Christian Schaffner; Barbara M. Terhal
-
-[3] The intercept/resend attack and the delayed measurement attack on the QKD  protocol based on the pre- and post-selection effect, Hiroo Azuma; Masashi Ban
-
-[4] 404 CTF: De l'écoute, pas très discrète, Sckathach
+- [1] A new attack strategy for BB84 protocol based on, Breidbart basis, Liu Dan; Pei Chang-xing; Quan Dong-xiao; Han Bao-bin; Zhao Nan
+- [2] Cryptography from Noisy Storage, Stephanie Wehner; Christian Schaffner; Barbara M. Terhal
+- [3] The intercept/resend attack and the delayed measurement attack on the QKD  protocol based on the pre- and post-selection effect, Hiroo Azuma; Masashi Ban
+- [4] 404 CTF: De l'écoute, pas très discrète, Sckathach

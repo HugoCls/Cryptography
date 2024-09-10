@@ -90,7 +90,7 @@ Overall, the E91 protocol is a complex but promising system for the future of qu
 
 ## References
 
-- [1][E91 Protocol - Qiskit Tutorial](https://github.com/kardashin/E91_protocol/blob/master/E91_tutorial/E91_tutorial_github-friendly.ipynb)
-- [2][Quantum Key Distribution (Wikipedia)](https://en.wikipedia.org/wiki/Quantum_key_distribution)
-- [3][Lecture: Artur Ekert - IQIS Lecture 5.7](https://youtu.be/2ExG7UJgfmQ)
-- [4][Ekert Protocol - Quantum Optics](https://youtu.be/zNIQ0FXq9tw)
+[1] [E91 Protocol - Qiskit Tutorial](https://github.com/kardashin/E91_protocol/blob/master/E91_tutorial/E91_tutorial_github-friendly.ipynb)
+[2] [Quantum Key Distribution (Wikipedia)](https://en.wikipedia.org/wiki/Quantum_key_distribution)
+[3] [Lecture: Artur Ekert - IQIS Lecture 5.7](https://youtu.be/2ExG7UJgfmQ)
+[4] [Ekert Protocol - Quantum Optics](https://youtu.be/zNIQ0FXq9tw)

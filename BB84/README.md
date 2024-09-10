@@ -39,6 +39,9 @@ A Man-in-the-Middle (MitM) attack in BB84 involves an eavesdropper, Eve, who int
 
 This attack allows an attacker (Eve) to achieve up to 85% bit matching without being detected by Alice and Bob, who use different polarization bases.
 
+![](./images/mathematical_opti.png)
+Placement on Breidbart Basis compared to usual x and + basis.
+
 ### Attack Scheme
 
 The described Man-in-the-Middle attack proceeds as follows:

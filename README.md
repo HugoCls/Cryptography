@@ -14,10 +14,10 @@ This repository contains various cryptographic algorithms implemented in C or Py
 ### 1. [OTP (One-Time Pad)](https://github.com/HugoCls/Cryptography/tree/main/OTP)
 The One-Time Pad is a theoretically unbreakable cipher that uses a single-use pre-shared key as long as the message being sent.
 
-### 2. [Caesar Cipher](https://github.com/HugoCls/Cryptography/tree/main/Caesar) <small>& Cryptanalysis</small>
+### 2. [Caesar Cipher](https://github.com/HugoCls/Cryptography/tree/main/Caesar) & Cryptanalysis
 The Caesar Cipher is a substitution cipher where each letter in the plaintext is shifted by a certain number of places down or up the alphabet.
 
-### 3. [Vigenere Cipher](https://github.com/HugoCls/Cryptography/tree/main/Vigenere) <small>& Cryptanalysis</small>
+### 3. [Vigenere Cipher](https://github.com/HugoCls/Cryptography/tree/main/Vigenere) & Cryptanalysis
 The Vigenere Cipher is a method of encrypting alphabetic text by using a simple form of polyalphabetic substitution.
 
 ### 4. [Baptista Cipher](https://github.com/HugoCls/Cryptography/tree/main/Baptista%20Cipher)
@@ -27,10 +27,10 @@ The Baptista Cipher is a block cipher based on chaotic dynamics, often used for 
 
 ## Quantum Cryptography
 
-### 1. [BB84](https://github.com/HugoCls/Cryptography/tree/main/BB84) <small>& Cryptanalysis</small>
+### 1. [BB84](https://github.com/HugoCls/Cryptography/tree/main/BB84) & Cryptanalysis
 The BB84 protocol is the first quantum key distribution scheme, providing secure communication based on the principles of quantum mechanics.
 
-### 2. [E91](https://github.com/HugoCls/Cryptography/tree/main/E91) <small>& Cryptanalysis</small>
+### 2. [E91](https://github.com/HugoCls/Cryptography/tree/main/E91) & Cryptanalysis
 The E91 protocol is another quantum cryptography protocol based on quantum entanglement for secure communication.
 
 ---

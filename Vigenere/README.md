@@ -82,24 +82,3 @@ To determine the key then, a simple Monogram approach wasn’t enough, therefore
 For the key guessing, in all my tests, I have a 100% guess if we consider that a multiple of the key length is a great answer.
 
 For guessing the key, the algorithm never failed. I made tests from key length 1 to 150.
-
-**Questions:**
-
-**A. explain in your own words the use of the coincidence index and the Chi-square statistics in the cryptanalysis of Vigenere’s cipher**
-
-- 1.b. Index of Coincidence
-- 2.b. Chi-square
-
-**B.**
-
-See code → decrypted.txt
-
-**C.**
-
-**C1. What does polyalphabetic substitution mean? - 1 p.**
-
-Polyalphabetic substitution is a cryptographic technique used to encrypt plaintext by substituting each letter in the message with another letter from a predefined set of alphabets. The Vigenere algorithm, which is a polyalphabetic substitution algorithm, differs from the Caesar algorithm, which is a monoalphabetic substitution algorithm.
-
-**C2. What is cryptanalysis? –1 p.**
-
-Cryptanalysis is the study of analyzing and breaking cryptographic systems, typically with the aim of decrypting secret messages without knowledge of the decryption key. Cryptanalysis involves various techniques and methodologies to uncover weaknesses in cryptographic algorithms or implementations.

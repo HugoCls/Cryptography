@@ -5,7 +5,7 @@ We have a lengthy message assumed to be in English and encrypted using the Vigen
 **Steps:**
 
 1. **Determine the Key Length**
-1. **Kasiski method (not asked, you can skip)**
+1. **Kasiski method**
 
 ![](images/Aspose.Words.860b3bdf-d885-4c94-8e52-70e89a57191c.001.jpeg)
 

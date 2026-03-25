@@ -1,0 +1,67 @@
+# _s is the plaintext string
+# (_x0,r) is the initial condition and parameter secret key
+# xmin, xmax are the boundaries of the sites
+# p is the randomization constant
+
+encrypt := proc(_s, _x0, r, xmin, xmax, p)
+
+local D, s, n, ep, x0, c,i, random;
+
+D := Digits;
+Digits := 16;
+
+s := convert(_s, bytes); # Convert s to ASCII representation
+n := length(_s);
+ep := (xmax-xmin)/256;
+x0 := _x0;
+c := [seq(0,i=1..n)];
+
+for i from 1 to 100 do # Ignore initial transient
+    x0 := r*x0*(1-x0);
+od;
+
+c[1] := 100;
+
+# Main loop
+for i from 1 to n do
+    while(true) do
+        if(trunc((x0-0.2)*256/0.6) = s[i] and rand()/10^12 > p)
+            then break; fi;
+        x0 := r*x0*(1-x0);
+        c[i] := 1 + c[i];
+    od;
+od;
+
+Digits := D;
+RETURN(c);
+end:
+
+# c is the cipher text
+# n length of plaintext string
+# (_x0,r) is the initial condition and parameter secret key
+# xmin, xmax are the boundaries of the sites
+
+decrypt := proc(c, n, _x0, r, xmin, xmax)
+local D, p, s, ep, x0,i;
+
+D := Digits;
+Digits := 16;
+
+ep := (xmax-xmin)/256;
+x0 := _x0;
+p := [seq(0, i=1..n)];
+
+# Main Loop
+for i from 1 to n do
+    for j from 1 to c[i] do
+        x0 := r*x0*(1-x0);
+    od;
+    p[i] := trunc((x0-0.2)*256/0.6);
+
+od;
+
+s := "";
+for i from 1 to n do
+    s := sprintf("%s%c", s,p[i]);
+od; RETURN(s);
+end:

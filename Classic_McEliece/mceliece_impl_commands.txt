@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt install git gcc make cmake
+git clone https://github.com/PQClean/PQClean.git
+cd PQClean
+cd crypto_kem/mceliece6960119f/clean
+make
+mv ../../../../server.c ./server.c
+mv ../../../../client.c ./client.c
+gcc -o bob bob.c ../../../common/fips202.c ../../../common/randombytes.c -I. -I../../../common -L. -lmceliece6960119f_clean -lssl -lcrypto
+gcc -o alice alice.c ../../../common/fips202.c ../../../common/randombytes.c -I. -I../../../common -L. -lmceliece6960119f_clean -lssl -lcrypto
